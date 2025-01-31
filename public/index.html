@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gleef - Password Reset</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+  <h1 class="logo">Gleef</h1>
+  <h2>Password reset</h2>
+  <div class="form-container">
+    <form id="reset-password-form">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Your new 8 character password" required>
+
+      <label for="confirm-password">Confirm password</label>
+      <input type="password" id="confirm-password" name="confirm-password" placeholder="One more time, just to be sure" required>
+
+      <button type="submit">Reset Password</button>
+    </form>
+    <div class="success-message" style="display: none;">
+      Password changed. You can use your new password to login.
+    </div>
+  </div>
+</div>
+<script rel="text/javascript" src="bundle.js"></script>
+</body>
+</html>
